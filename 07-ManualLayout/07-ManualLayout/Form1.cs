@@ -26,7 +26,8 @@ namespace _07_ManualLayout
 
             int yoff = 0;
             yoff = 4;
-            // 注意要设置multiline=true
+            // 注意要设置Multiline=true，或者AutoSize=false
+            this.textBox1.AutoSize = false;
             this.textBox1.Location = new System.Drawing.Point(0, yoff);
             this.textBox1.Size = new System.Drawing.Size(width - 80, 30);
 
