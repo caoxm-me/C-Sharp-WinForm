@@ -17,10 +17,13 @@ namespace _03_CreateComponent
         public Form1()
         {
             InitializeComponent();
-
+            // 添加按钮控件
             this.Controls.Add(testButton);
+            // 设置按钮标题
             testButton.Text = "测试按钮";
+            // 设置按钮左上角坐标
             testButton.Location = new Point(40, 40);
+            // 设置按钮尺寸
             testButton.Size = new Size(100, 40);
         }
     }
